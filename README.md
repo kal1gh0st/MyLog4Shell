@@ -5,7 +5,7 @@ You can use these commands and rules to search for exploitation attempts against
 
 ## Grep / Zgrep
 
-This command searches for exploitation attempts in uncompressed files in folder `/var/log` and all sub folders
+This command searches for exploitation attempts in uncompressed files in folder `/var/log` - '/use/car/log' and all sub folders
 
 ```bash
 sudo egrep -I -i -r '\$(\{|%7B)jndi:(ldap[s]?|rmi|dns|nis|iiop|corba|nds|http):/[^\n]+' /var/log
