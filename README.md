@@ -5,7 +5,7 @@ You can use these commands and rules to search for exploitation attempts against
 
 ## Grep / Zgrep
 
-This command searches for exploitation attempts in uncompressed files in folder `/var/log` - '/use/car/log' and all sub folders
+This command searches for exploitation attempts in uncompressed files in folder `/var/log` - '/usr/var/log' and all sub folders
 
 ```bash
 sudo egrep -I -i -r '\$(\{|%7B)jndi:(ldap[s]?|rmi|dns|nis|iiop|corba|nds|http):/[^\n]+' /var/log
@@ -69,7 +69,7 @@ by [@CyberRaiju](https://twitter.com/CyberRaiju/status/1469505677580124160)
 
 https://github.com/Neo23x0/signature-base/blob/master/yara/expl_log4j_cve_2021_44228.yar
 
-## Help 
+## Help all
 
 Please report findings that are not covered by these detection attempts.
 # Using setup.py
